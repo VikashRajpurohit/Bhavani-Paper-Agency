@@ -1,0 +1,6 @@
+{
+    "mongoUrl": "mongodb+srv://bpa123:bpa123@bpa.mmxmb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "FILE_UPLOAD_PATH":"../public/uploads",
+    "MAX_FILE_UPLOAD":1000000
+}

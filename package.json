@@ -2,7 +2,7 @@
   "name": "bhavani-paper-agency",
   "version": "1.0.0",
   "description": "Bhavani paper and stationary shop.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server"
@@ -11,12 +11,21 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
     "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
+    "express-fileupload": "^1.3.1",
+    "express-session": "^1.17.3",
     "express-validator": "^6.14.0",
+    "file-upload": "^0.0.0",
     "gravatar": "^1.8.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^6.7.5",
     "request": "^2.88.2"
   },
   "devDependencies": {
